@@ -11,6 +11,7 @@
   ],
   "files.associations": {
     "iostream": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "*.ipp": "cpp"
   }
 }
