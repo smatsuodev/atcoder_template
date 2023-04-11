@@ -73,20 +73,23 @@ constexpr auto max(T... a) {
   return max(initializer_list<common_type_t<T...>>{a...});
 }
 template <class... T>
-// clang-format off
 void input(T&... a) {
-  (cin>>...>>a);
+  (cin >> ... >> a);
 }
 void print() { cout << '\n'; }
+template <class T>
+void print(const T& a) {
+  cout << a << '\n';
+}
 template <class T, class... Ts>
 void print(const T& a, const Ts&... b) {
-  cout<<a;
-  (cout<<...<<(cout<<' ',b));
-  cout<<'\n';
+  cout << a;
+  (cout << ... << (cout << ' ', b));
+  cout << '\n';
 }
 
 int main() {
   ll a, b, c;
   input(a, b, c);
-  print(a, b, c);
+  print(a);
 }
