@@ -2,4 +2,4 @@
 !.gitignore
 !/.vscode/
 !main.cpp
-!_main.cpp
+!grid.cpp

@@ -29,6 +29,22 @@
     "regex": "cpp",
     "valarray": "cpp",
     "cmath": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "any": "cpp",
+    "fstream": "cpp",
+    "future": "cpp",
+    "optional": "cpp",
+    "shared_mutex": "cpp",
+    "sstream": "cpp",
+    "thread": "cpp",
+    "tuple": "cpp",
+    "variant": "cpp",
+    "complex": "cpp",
+    "bitset": "cpp",
+    "iterator": "cpp",
+    "*.tcc": "cpp",
+    "functional": "cpp",
+    "istream": "cpp",
+    "type_traits": "cpp"
   }
 }
